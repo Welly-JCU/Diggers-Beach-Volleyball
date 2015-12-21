@@ -1,0 +1,115 @@
+/* Logical divisions */
+#background {
+	background:url(../images/sand.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#header1 {
+	height:50px;
+	position:relative;
+	margin:0px;
+	background-color:#0FF;
+}
+#header2 {
+	height:35px;
+	position:relative;
+	margin:0px;
+}
+#header2 ul {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color:#FF0;
+	font-family: "Comic Sans MS", cursive;
+	height: 34px;
+}
+#header2 li {
+	list-style:none;
+	display:inline;
+}
+#header2 ul li a { 
+	height:20px;
+	margin:0px; 
+	padding: 0px 10px 0px 10px;
+	border-left:1px solid; 
+	border-top:1px solid; 
+	border-bottom:1px solid; 
+	color:#1a2b3c; 
+	text-decoration:none;  
+	font-size:23px;
+	text-align:center;
+}
+#header2 ul li  a:hover {
+	background-color: #abcdef;
+	color: #FFF;
+}
+#header2 ul li  a:active {
+	background-color: #30F;
+	color: #F00;
+}
+#header {
+	height:50px;
+	position:relative;
+	margin:0px;
+	background-color:#9Ff;
+}
+#header ul {
+	position:absolute; 
+	right:0px; 
+	bottom:0px; 
+	margin:0px; 
+	padding: 0px;
+	background-color:#abcdef;
+	font-family:"Comic Sans MS", cursive;
+}
+#header li {
+	list-style:none; display:inline;
+}
+#header ul li a { 
+	height:20px; 
+	margin:0px; 
+	padding: 0px 10px 0px 10px;
+	border-left:1px solid; 
+	border-top:1px solid; 
+	border-bottom:1px solid;
+	color:#1a2b3c; 
+	text-decoration:none;  
+	font-size:14px;
+	color:#FFF;
+}
+#header ul li  a:hover {
+	background-color: #FF0;
+	color: #000;
+}
+#header ul li  a:active {
+	background-color: #30F;
+	color: #F00;
+}
+#body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	background-color:#3CC;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	height:auto;
+}
+#footer {
+	background-color:#3FF;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.textfield {
+	width:98%;
+}
+.right {
+	float:right;
+	padding-right:15px;
+}
+.left {
+	float:left;
+	padding-left:15px;
+}
